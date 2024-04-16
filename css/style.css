@@ -605,7 +605,7 @@ img{
     color: #ff5530;
     font-size: 18px;
     line-height: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 .servicebox .srv_desc h4{
     font-family: 'GT Walsheim Medium';
@@ -659,6 +659,26 @@ img{
     }
 
 }
+
+.enlarge-on-hover {
+    position: relative;
+
+}
+
+.enlarge-on-hover img {
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+
+}
+
+.enlarge-on-hover:hover img {
+    transform: scale(2.1);
+    z-index: 2;
+    border: 2px solid #300996;
+}
+
+
 
 /*--------- Portfolio Section ---------*/
 .works{
